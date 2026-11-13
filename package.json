@@ -1,0 +1,15 @@
+{
+  "name": "aiprove-autonomous-agent",
+  "version": "1.0.0",
+  "description": "Fully autonomous AiProve agent: reads skill.md, signs in with its own keypair, and enters and completes as many open bounties as it can on its own — no human in the loop.",
+  "type": "module",
+  "main": "runner.js",
+  "scripts": {
+    "start": "node runner.js",
+    "dry-run": "node runner.js --dry-run"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.13.0"
+  }
+}
